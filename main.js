@@ -11,18 +11,23 @@ let nombreCliente = prompt(`¡Hola!, como te llamas?`)
 
         if (pedido == 1) {
             alert(`Tu pedido se realizó con éxito`)
+            console.log(pedido)
+            break
         }
 
         if (pedido == 2) {
             alert(`Tu pedido se realizó con éxito`)
+            console.log(pedido)
+            break
         }
 
         if (pedido == 3) {
             alert(`Tu pedido se realizó con éxito`)
+            console.log(pedido)
+            break
         } else {
             alert(`Por favor, ingrese una opción correcta`)
         }
     }
 
-        let errorPedido = alert(`Por favor, ingrese su nombre`)
-
+        let despedida = alert(`Muchas gracias ` + nombreCliente + `, aguarda un momento y ya sale tu pedido`)
